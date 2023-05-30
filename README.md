@@ -44,10 +44,10 @@ SUBMIT 3. (submit_vova_04.csv)
 1. Подготовка фичей (Скрипт: ft02_get_features.ipynb)
 
 Входные данные: датасеты, предоставленные компанией Озон:<br>
-  train_data.parquet<br>
-  test_data.parquet<br>
-  train_pairs.parquet<br>
-  test_pairs_wo_target.parquet<br>
+* train_data.parquet<br>
+* test_data.parquet<br>
+* train_pairs.parquet<br>
+* test_pairs_wo_target.parquet<br>
 
 Выходные данные: файлы со спарс-матрицами фичей и вспомогательные датафреймы:<br>
   train_features_02.npz<br>
