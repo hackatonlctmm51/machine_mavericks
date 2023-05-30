@@ -50,10 +50,10 @@ SUBMIT 3. (submit_vova_04.csv)
 * test_pairs_wo_target.parquet<br>
 
 Выходные данные: файлы со спарс-матрицами фичей и вспомогательные датафреймы:<br>
-  train_features_02.npz<br>
-  test_features_02.npz<br>
-  train_other_02.parquet<br>
-  test_other_02.parquet<br>
+* train_features_02.npz<br>
+* test_features_02.npz<br>
+* train_other_02.parquet<br>
+* test_other_02.parquet<br>
 
 При обработке столбца с атрибутами товаров из обучающей выборки всего было получено 1447 уникальных атрибута. Значения атрибутов представляют собой списки строковых данных, в подавляющем большинстве состоящие из одного элемента-атрибута, реже - из нескольких элементов в списке.
 
@@ -62,13 +62,13 @@ SUBMIT 3. (submit_vova_04.csv)
 2. Обучение и предикты модели (Скрипт: ft02_attr04.ipynb)
 
 Входные данные: файлы со спарс-матрицами фичей и вспомогательные датафреймы:<br>
-  train_features_02.npz<br>
-  test_features_02.npz<br>
-  train_other_02.parquet<br>
-  test_other_02.parquet<br>
+* train_features_02.npz<br>
+* test_features_02.npz<br>
+* train_other_02.parquet<br>
+* test_other_02.parquet<br>
 
 Выходные данные: датафрейм с предиктами модели:<br>
-  submit_vova_04.csv
+* submit_vova_04.csv
 
 Первичный исследовательский анализ показал, что разные категории 3-го уровня довольно сильно различаются по множеству параметров - по количеству сэмплов в train и test, по распределению таргета в train, и конечно по атрибутам, характерным для данной категории.
 
